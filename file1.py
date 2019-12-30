@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import OrderedDict
-dataframe = pd.read_excel(io='C:\\Users\\Jasper\\Desktop\\Book1.xlsx',sheet_name=None,header=None)
+dataframe = pd.read_excel(io='C:\\Users\\Jasper\\Desktop\\10.xlsx',sheet_name="1級",header=None)
 print(dataframe)
 
 

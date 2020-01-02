@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# import time
-# tStart = time.time()
+import time
+tStart = time.time()
 import openpyxl
 import re
 
@@ -32,14 +32,9 @@ for spilt in newlist:
         a += letter[alphabet[total]]
     if a == 100:
         vocabulary.append(spilt)
-    
-print(vocabulary)
-
-# for test in vocabulary:
-#     testset = set()
-    
-
-
-# tEnd = time.time()
-
-# print("It cost %f sec" % (tEnd - tStart))
+#list轉換成set，清除掉重複的元素
+duplicates = set(vocabulary)
+print(duplicates)
+ 
+tEnd = time.time()
+print("It cost %f sec" % (tEnd - tStart))

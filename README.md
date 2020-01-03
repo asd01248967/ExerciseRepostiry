@@ -56,6 +56,7 @@ This is only a conter how many vocabulary same as Attitude  as one hundred point
 $pip install openpyxl
 $pip install re
 --------------------------
+how to execute
 $ python file1.py
 # Prints out the vocabulary in list 
 ```

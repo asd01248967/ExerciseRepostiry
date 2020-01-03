@@ -59,6 +59,9 @@ $pip install re
 how to execute
 $ python file1.py
 # Prints out the vocabulary in list 
+Result：
+{'carpenter', 'Wednesday', 'delivery', 'pursue', 'whiskey', 'inflation', 'thirty', 'fountain', 'excellent', 'discipline', 'companion', 'socialism', 'elsewhere', 'eventual', 'hospital', 'corridor', 'personal', 'intellect', 'repress', 'clockwise', 'stress', 'boundary', 'chimpanzee', 'drizzle', 'printer', 'irritate', 'adulthood', 'producer', 'prevent', 'accumulate', 'status', 'restore', 'towards', 'culture', 'whenever', 'session', 'congress', 'boycott', 'outset', 'quarter', 'boulevard', 'analysis', 'telescope', 'selective', 'utensil', 'pumpkin', 'lightning', 'attitude', 'wholesale', 'likelihood', 'variety', 'researcher', 'acknowledge', 'turkey', 'therefore', 'ornament', 'interfere', 'telephone', 'primary'}
+It cost 1.433895 sec
 ```
 ## Maintainers
 

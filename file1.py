@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import time
-tStart = time.time()
 import openpyxl
 import re
+timeStart = time.time()
 
 newlist = []
 
@@ -14,27 +14,27 @@ book = openpyxl.load_workbook('7000.xlsx')
 
 sheetlist = book.sheetnames
 
-for s_name in sheetlist:
-    sheet = book[s_name]
+for sheet_number in sheetlist:
+    sheet = book[sheet_number]
     for number in range(1,sheet.max_row+1):
         if sheet.cell(row=number, column=1).value == None:
             pass
         else:
-            rStr = re.match("^[^@]+", sheet.cell(row=number, column=1).value)
-            newlist.append(rStr.group())
+            regpressStr = re.match("^[^@]+", sheet.cell(row=number, column=1).value)
+            newlist.append(regpressStr.group())
 
 for spilt in newlist:
     #list長度是8799，但是從0~8798格才有value，還有重複的單字問題
     alphabet = list(spilt)
     alphabetlen = len(spilt)
-    a = 0
+    point = 0
     for total in range(0, alphabetlen):
-        a += letter[alphabet[total]]
-    if a == 100:
+        point += letter[alphabet[total]]
+    if point == 100:
         vocabulary.append(spilt)
 #list轉換成set，清除掉重複的元素
-duplicates = set(vocabulary)
-print(duplicates)
+delduplicates = set(vocabulary)
+print(delduplicates)
  
-tEnd = time.time()
-print("It cost %f sec" % (tEnd - tStart))
+timeEnd = time.time()
+print("It cost %f sec" % (timeEnd - timeStart))

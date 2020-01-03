@@ -2,7 +2,7 @@
 import time
 import openpyxl
 import re
-timeStart = time.time()
+timestart = time.time()
 
 newlist = []
 
@@ -20,8 +20,8 @@ for sheet_number in sheetlist:
         if sheet.cell(row=number, column=1).value == None:
             pass
         else:
-            regpressStr = re.match("^[^@]+", sheet.cell(row=number, column=1).value)
-            newlist.append(regpressStr.group())
+            regpressstr = re.match("^[^@]+", sheet.cell(row=number, column=1).value)
+            newlist.append(regpressstr.group())
 
 for spilt in newlist:
     #list長度是8799，但是從0~8798格才有value，還有重複的單字問題
@@ -36,5 +36,5 @@ for spilt in newlist:
 delduplicates = set(vocabulary)
 print(delduplicates)
  
-timeEnd = time.time()
-print("It cost %f sec" % (timeEnd - timeStart))
+timeend = time.time()
+print("It cost %f sec" % (timeend - timestart))

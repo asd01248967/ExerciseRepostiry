@@ -1,16 +1,16 @@
-# Readme
+# Exercise_Project
 ### Author: Jasper
 
 [![standard-readme compliant](https://img.shields.io/badge/Exercise-01-green)](https://github.com/asd01248967/workspace)
 
-Attitude Is Everything
+Attitude Is Everything, keep goin, keep moving, fall forward
 
-This Exercise is used for increase personal coding skill that reach career destination
+This exercise_project is used for increase personal coding skill that reach career destination
 
 This repository contains:
 
-1. [file1](file1.py) - for this exercise how to do that
-2. [7000.xlsx](7000.xlsx) - 7000 vocabulary
+1. [exercise01.py](exercise01.py.py) - For this exercise practice compute how many vocabularies same points as Attitude like that, A is Point 1, B is point2, c is point 3, So on and so forth
+2. [7000.xlsx](7000.xlsx) - 7000 vocabulary, From the document, obtain vocabulary and then design point formula to execute application loop until done
 3. [README.md](README.md) - Explain how this repositry's file used for and how to usage
 
 ## Table of Contents
@@ -28,12 +28,12 @@ This Exercise is used for increase personal coding skill that reach career desti
 
 The goals for this repository are:
 
-Used moudel：
+Used module:
 1. Regular expression
 2. Openpyxl
 
 > Suppose A is one point, and B is two point,
-so on and so forth respectively representative itself point.then how many vocabulary exactly same as Attitude with one hundred point as well 
+so on and so forth respectively representative itself point.then how many vocabulary exactly same as Attitude with one hundred points as well 
 
 ## Install
 
@@ -66,5 +66,3 @@ It cost 1.433895 sec
 ## Maintainers
 
 [@Jasper](https://github.com/asd01248967)
-
-TEST!

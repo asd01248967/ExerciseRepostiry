@@ -30,12 +30,12 @@ The exercise01.py goals for this repository are:
 
 > For this exercise01 practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
 
-## Requirements
+## Requirements.txt
 
-```sh
 Used module for exercise01:
-1. Regular expression
-2. Openpyxl
+```sh
+Regular expression
+Openpyxl
 ```
 
 
@@ -47,7 +47,7 @@ Used module for exercise01:
 1. Create a Python Virtual Environment
 2. git clone this_repo
 3. cd this_repo
-4. pip install requirements list
+4. pip install re Openpyxl
 5. python exercise01.py
 6. Print result：
 {'carpenter', 'Wednesday', 'delivery', 'pursue', 'whiskey', 'inflation', 'thirty', 'fountain', 'excellent', 'discipline', 'companion', 'socialism', 'elsewhere', 'eventual', 'hospital', 'corridor', 'personal', 'intellect', 'repress', 'clockwise', 'stress', ....etc}

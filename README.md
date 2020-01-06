@@ -3,8 +3,6 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/Exercise-01-green)](https://github.com/asd01248967/workspace)
 
-Attitude Is Everything, keep goin, keep moving, fall forward
-
 This exercise_project is used for increase personal coding skill that reach career destination
 
 This repository contains:
@@ -22,18 +20,15 @@ This repository contains:
 
 ## Background
 
-Attitude Is Everything
+Attitude Is Everything, keep goin, keep moving, fall forward
 
 This Exercise is used for increase personal coding skill that reach career destination
 
-The goals for this repository are:
+I will continue looking for something interesting project or little idea to practice
 
-Used module:
-1. Regular expression
-2. Openpyxl
+The exercise01.py goals for this repository are:
 
-> Suppose A is one point, and B is two point,
-so on and so forth respectively representative itself point.then how many vocabulary exactly same as Attitude with one hundred points as well 
+> For this exercise practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
 
 ## Install
 
@@ -48,6 +43,11 @@ reference：https://www.liquidweb.com/kb/install-pip-windows/
    python get-pip.py
 5. Pip is now installed!
 ```
+
+Used module:
+1. Regular expression
+2. Openpyxl
+
 ## Usage
 
 This is only a conter how many vocabulary same as Attitude  as one hundred point ,and than you need download 7000.xlsx file to read by file1.py .than You need install moudle  Regular expression and Openpyxl to computing process.

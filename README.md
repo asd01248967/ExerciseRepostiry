@@ -28,40 +28,31 @@ I will continue looking for something interesting project or little idea to prac
 
 The exercise01.py goals for this repository are:
 
-> For this exercise practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
+> For this exercise01 practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
 
-## Install
-
-This project uses [pip](https://github.com/pypa/pip). Go check them out if you don't have them locally installed.
+## Requirements
 
 ```sh
-reference：https://www.liquidweb.com/kb/install-pip-windows/
-
-1. Download get-pip.py to a folder on your computer.
-2. Open a command prompt and navigate to the folder containing get-pip.py.
-3. Run the following command:
-   python get-pip.py
-5. Pip is now installed!
-```
-
-Used module:
+Used module for exercise01:
 1. Regular expression
 2. Openpyxl
+```
 
-## Usage
 
-This is only a conter how many vocabulary same as Attitude  as one hundred point ,and than you need download 7000.xlsx file to read by file1.py .than You need install moudle  Regular expression and Openpyxl to computing process.
+
+## Quick Start
 
 ```sh
-$pip install openpyxl
-$pip install re
---------------------------
-how to execute
-$ python file1.py
-# Prints out the vocabulary in list 
-Result：
-{'carpenter', 'Wednesday', 'delivery', 'pursue', 'whiskey', 'inflation', 'thirty', 'fountain', 'excellent', 'discipline', 'companion', 'socialism', 'elsewhere', 'eventual', 'hospital', 'corridor', 'personal', 'intellect', 'repress', 'clockwise', 'stress', 'boundary', 'chimpanzee', 'drizzle', 'printer', 'irritate', 'adulthood', 'producer', 'prevent', 'accumulate', 'status', 'restore', 'towards', 'culture', 'whenever', 'session', 'congress', 'boycott', 'outset', 'quarter', 'boulevard', 'analysis', 'telescope', 'selective', 'utensil', 'pumpkin', 'lightning', 'attitude', 'wholesale', 'likelihood', 'variety', 'researcher', 'acknowledge', 'turkey', 'therefore', 'ornament', 'interfere', 'telephone', 'primary'}
+
+1. Create a Python Virtual Environment
+2. git clone this_repo
+3. cd this_repo
+4. pip install requirements list
+5. python exercise01.py
+6. Print result：
+{'carpenter', 'Wednesday', 'delivery', 'pursue', 'whiskey', 'inflation', 'thirty', 'fountain', 'excellent', 'discipline', 'companion', 'socialism', 'elsewhere', 'eventual', 'hospital', 'corridor', 'personal', 'intellect', 'repress', 'clockwise', 'stress', ....etc}
 It cost 1.433895 sec
+
 ```
 ## Maintainers
 

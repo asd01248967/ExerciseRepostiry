@@ -1,0 +1,24 @@
+- name: generation the nginx repo file
+  yum_repository:
+    name: nginx
+    baseurl: http://nginx.org/packages/centos/$releasever/$basearch/
+    gpgcheck: 1
+    enabled: 1
+    gpgkey: https://nginx.org/keys/nginx_signing.key
+    description: nginx-stable
+- name: install nginx service
+  yum:
+    name: nginx
+- name: start & enable service
+  service:
+    name: nginx
+    enabled: yes
+    state: restarted
+- name: generation the nginx configuration file
+  template:
+    src: nginx_exercise.conf.j2
+    dest: /etc/nginx/conf.d/nginx_exercise.conf
+- name: delete default index.html file
+  file:
+    path: /etc/nginx/conf.d/default.conf
+    state: absent

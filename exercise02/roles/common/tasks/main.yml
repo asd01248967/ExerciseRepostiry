@@ -1,0 +1,13 @@
+- name: install the packages of system
+  yum:
+    name: git, vim ,wget, epel-release, bash-completion, yum-utils
+    state: latest
+- name: update the packages of system
+  yum:
+    name: "*"
+    state: latest
+- name: disabled selinux
+  lineinfile:
+    path: /etc/selinux/config
+    regexp: '^SELINUX='
+    line: SELINUX=disabled

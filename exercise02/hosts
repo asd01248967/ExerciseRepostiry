@@ -17,7 +17,7 @@
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 [test]
-172.31.33.204
+123.123.123.123
 ## [webservers]
 ## alpha.example.org
 ## beta.example.org

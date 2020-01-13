@@ -15,8 +15,8 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
+- [Requirements](#Requirements.txt)
+- [Quick Start](#Quick Start)
 - [Maintainers](#maintainers)
 
 ## Background
@@ -33,7 +33,7 @@ The exercise00.py goals for this repository are:
 
 ## Requirements.txt
 
-Used module for exercise01:
+Used module for exercise02:
 ```sh
 1.yum install ansilbe git
 2.git clone https://github.com/asd01248967/exercise_project.git

@@ -11,7 +11,7 @@ This repository contains:
 2. [hosts](hosts) - For Ansbile used to  pattern mode, context is list you wanna be  ansbile managered node mechine's IP / FQDN / Hostname,can taking these mechine as group as well, then will flexible execute some particually jobs with order  requirements
 3. [playbook.yml](playbook.yml) - Ansible playbook, This file is major dirver ansible to execute every role's main.yml, have four role: common、db、webserver、php, every role contain main.yml file and as the case may be append template file
 4. [README.md](README.md) - Explain how this repositry's file used to what enviroment construct and how to usage
-
+5. [role](roles) - deppend particular purpose create mapping direction to finish job, and then by file in subdirecton to driver behave is 
 ## Table of Contents
 
 - [Background](#background)
@@ -21,37 +21,37 @@ This repository contains:
 
 ## Background
 
+I wanna to try and learn use ansible to construct a LNMP enviroment automatic,and can flexible modifity behave or order as well
+
+This exercise_project is used to construct LNMP enviroament to show up the website, just only sample phpinfo(), maybe someone nave interesting to edit more stronger and more function, I will appreciate you
+
 Attitude Is Everything, keep goin, keep moving, fall forward
 
-This Exercise is used for increase personal coding skill that reach career destination
+The exercise00.py goals for this repository are:
 
-I will continue looking for something interesting project or little idea to practice
-
-The exercise01.py goals for this repository are:
-
-> For this exercise01 practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
+> once done ansilbe requirement(ansible, git, ssh key pass to node, test ssh, host file),keep workdir in the path same with playbook.yml, then you can through command to construct a LNMP enviroment
 
 ## Requirements.txt
 
 Used module for exercise01:
 ```sh
-Regular expression
-Openpyxl
+1.yum install ansilbe git
+2.git clone https://github.com/asd01248967/exercise_project.git
+3.cd exercise_project
+4.edit host file (adjust to your enviroment match-list for managed node)
+5.ansible controller generator public key and pass to node mechine 
+ > ssh_keygen
+ > cat ~/.ssh/id_rsa.pub & copy (in ansible controller)
+ > vim ~/.ssh/authorized_keys & paste(in ansible node)
+6.test ssh connection : ssh node_IP, if sucessfly will present change and node_IP
+7.test ansilbe : ansible all -m shell -a "echo hello"
+8.workdir same as playbook.yml, command line : ansible-playbook playbook.yml
 ```
 
 ## Quick Start
 
 ```sh
-
-1. Create a Python Virtual Environment
-2. git clone this_repo
-3. cd this_repo
-4. pip install re Openpyxl
-5. python exercise01.py
-6. Print result：
-{'carpenter', 'Wednesday', 'delivery', 'pursue', 'whiskey', 'inflation', 'thirty', 'fountain', 'excellent', 'discipline', 'companion', 'socialism', 'elsewhere', 'eventual', 'hospital', 'corridor', 'personal', 'intellect', 'repress', 'clockwise', 'stress', ....etc}
-It cost 1.433895 sec
-
+1.ansible-playbook playbook.yml
 ```
 ## Maintainers
 

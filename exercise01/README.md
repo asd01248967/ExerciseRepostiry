@@ -14,8 +14,8 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
+- [Requirements.txt](#Requirements.txt)
+- [QuickStart](#usage)
 - [Maintainers](#maintainers)
 
 ## Background
@@ -38,7 +38,7 @@ Regular expression
 Openpyxl
 ```
 
-## Quick Start
+## QuickStart
 
 ```sh
 

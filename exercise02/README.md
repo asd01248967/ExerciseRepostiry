@@ -16,7 +16,7 @@ This repository contains:
 
 - [Background](#background)
 - [Requirements](#Requirements.txt)
-- [Quick Start](#Quick Start)
+- [QuickStart](#QuickStart)
 - [Maintainers](#maintainers)
 
 ## Background
@@ -48,7 +48,7 @@ Used module for exercise02:
 8.workdir same as playbook.yml, command line : ansible-playbook playbook.yml
 ```
 
-## Quick Start
+## QuickStart
 
 ```sh
 1.ansible-playbook playbook.yml

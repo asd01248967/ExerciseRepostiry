@@ -3,7 +3,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/Exercise-02-green)](https://github.com/asd01248967/workspace)
 
-This exercise_project is used to construct LNMP enviroament to show up the website,  just only sample phpinfo(), maybe someone nave interesting to edit more stronger and more function, I will appreciate you
+Topic：This exercise_project is used to construct LNMP enviroament to show up the website,  just only sample phpinfo(), maybe someone nave interesting to edit more stronger and more function, I will appreciate you
 
 This repository contains:
 

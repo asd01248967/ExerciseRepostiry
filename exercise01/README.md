@@ -3,7 +3,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/Exercise-01-green)](https://github.com/asd01248967/workspace)
 
-This exercise_project is used for increase personal coding skill that reach career destination
+Topic：This exercise_project is used for increase personal coding skill that reach career destination
 
 This repository contains:
 

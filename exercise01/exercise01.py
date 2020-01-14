@@ -42,11 +42,14 @@ def printme( name ):
     userinput = list(name)
     record = 0
     for firstword in range(0, len(userinput)):
-       record += letter[userinput[firstword]]
-    print(record)       
-    return record
+        try:
+            record += letter[userinput[firstword]]
+        except Exception as e:
+            print(e, "is a not Qualification Character Symbol that can't count point")
+    print("the total point is :",record)
 
 printme(name)
+
 
 # timeend = time.time()
 # print("It cost %f sec" % (timeend - timestart))

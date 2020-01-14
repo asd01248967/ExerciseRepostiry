@@ -31,13 +31,13 @@ The exercise00.py goals for this repository are:
 
 > once done ansilbe requirement(ansible, git, ssh key pass to node, test ssh, host file),keep workdir in the path same with playbook.yml, then you can through command to construct a LNMP enviroment
 
-## Requirements.txt
+## prepare in advance
 
 Used module for exercise02:
 ```sh
 1.yum install ansilbe git
 2.git clone https://github.com/asd01248967/exercise_project.git
-3.cd exercise_project
+3.cd exercise_project/exercise02
 4.edit host file (adjust to your enviroment match-list for managed node)
 5.ansible controller generator public key and pass to node mechine 
  > ssh_keygen

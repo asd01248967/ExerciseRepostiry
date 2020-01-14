@@ -18,8 +18,6 @@ This repository contains:
 
 > I just wanna to raise my knowledge about code and cloud system maintaince region 
 
-## Requirements.txt
-
 ## Maintainers
 
 [@Jasper](https://github.com/asd01248967)

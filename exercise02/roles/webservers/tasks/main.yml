@@ -9,6 +9,11 @@
 - name: install nginx service
   yum:
     name: nginx
+- name: start & enable service
+  service:
+    name: nginx
+    enabled: yes
+    state: started
 - name: generation the nginx configuration file
   template:
     src: nginx_exercise.conf.j2
@@ -17,8 +22,5 @@
   file:
     path: /etc/nginx/conf.d/default.conf
     state: absent
-- name: start & enable service
-  service:
-    name: nginx
-    enabled: yes
-    state: restarted
+  notify: 
+  - restart nginx service

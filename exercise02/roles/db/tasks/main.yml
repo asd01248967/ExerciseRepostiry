@@ -23,6 +23,6 @@
 - name: add new user jasper
   mysql_user:
     name: jasper
-    password: 123456
+    password: "123456"
     priv: '*.*:ALL'
     state: present

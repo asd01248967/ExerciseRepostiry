@@ -46,7 +46,7 @@ def printme( name ):
             record += letter[userinput[firstword]]
         except Exception as e:
             print("your input", e, "is a not Qualification Character Symbol that can't count point")
-    print("the total point is :",record)
+    print(name, "is point total :",record)
 
 printme(name)
 

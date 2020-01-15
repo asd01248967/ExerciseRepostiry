@@ -15,3 +15,7 @@ def printme( name ):
     print("the total point is :",record)
 
 printme(name)
+
+
+
+####TEST

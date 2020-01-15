@@ -14,6 +14,7 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#background)
+- [Functions](#Functions)
 - [Requirements.txt](#Requirements.txt)
 - [QuickStart](#usage)
 - [Maintainers](#maintainers)
@@ -29,6 +30,14 @@ I will continue looking for something interesting project or little idea to prac
 The exercise01.py goals for this repository are:
 
 > For this exercise01 practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
+
+## Functions
+
+print all of these meet 100 point count in the 7000 vocabular xlsx file
+
+must be same with 7000.xlsx formed by 1 column straight 
+
+another function can support type in a word to assist convert word to point and show how many you get
 
 ## Requirements.txt
 

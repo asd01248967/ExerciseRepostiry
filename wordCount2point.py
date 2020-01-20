@@ -1,12 +1,6 @@
 #!/usr/bin/env python
-import time
 import openpyxl
 import re
-
-name = str(input("Enter Identify Word: "))
-
-timestart = time.time()
-
 newlist = []
 
 vocabulary = []
@@ -27,7 +21,6 @@ def consist():
                 regpressstr = re.match("^[^@]+", sheet.cell(row=number, column=1).value)
                 newlist.append(regpressstr.group())
     for spilt in newlist:
-        #list長度是8799，但是從0~8798格才有value，還有重複的單字問題
         alphabet = list(spilt)
         point = 0
         for total in range(0, len(spilt)):
@@ -47,8 +40,18 @@ def printme( name ):
             print("your input", e, "is a not Qualification Character Symbol that can't count point")
     print(name, "is point total :",record)
 
-printme(name)
-consist()
+def main():
+    print("choosen one you wanna to execute. 1.pickup a word to count point 2.import and process 7000's word and show special point in file")
+    choosen = input("which number is you want to exect : ")
+    try:
+        if int(choosen) == 1:
+            name = str(input("Enter Identify Word: "))
+            printme(name)
+        elif int(choosen) == 2:
+            consist()
+        else:
+            print("choosen neither 1 nor 2, please choosen again")
+    except Exception as e:
+        print("filed is restricttyped to type in non-numeric")
 
-timeend = time.time()
-print("It cost %f sec" % (timeend - timestart))
+main()

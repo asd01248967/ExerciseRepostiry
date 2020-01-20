@@ -3,10 +3,6 @@ import time
 import openpyxl
 import re
 
-name = str(input("Enter Identify Word: "))
-
-timestart = time.time()
-
 newlist = []
 
 vocabulary = []
@@ -37,18 +33,14 @@ def consist():
     delduplicates = set(vocabulary)
     print(delduplicates)
 
-def printme( name ):
-    userinput = list(name)
-    record = 0
-    for firstword in range(0, len(userinput)):
-        try:
-            record += letter[userinput[firstword]]
-        except Exception as e:
-            print("your input", e, "is a not Qualification Character Symbol that can't count point")
-    print(name, "is point total :",record)
-
-printme(name)
+        
+        
 consist()
 
-timeend = time.time()
-print("It cost %f sec" % (timeend - timestart))
+
+
+
+        
+
+
+

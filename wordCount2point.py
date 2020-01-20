@@ -41,7 +41,9 @@ def printme( name ):
     print(name, "is point total :",record)
 
 def main():
-    print("choosen one you wanna to execute. 1.pickup a word to count point 2.import and process 7000's word and show special point in file")
+    print("choosen one you wanna to execute.")
+    print("1.pickup a word from file thath qualified convert point special point on user ")
+    print("2.import and process 7000's word and show special point in file")
     choosen = input("which number is you want to exect : ")
     try:
         if int(choosen) == 1:

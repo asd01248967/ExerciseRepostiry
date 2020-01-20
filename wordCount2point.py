@@ -52,6 +52,6 @@ def main():
         else:
             print("choosen neither 1 nor 2, please choosen again")
     except Exception as e:
-        print("filed is restricttyped to type in non-numeric")
+        print(e, ",This filed is restricttyped to type in non-numeric")
 
 main()

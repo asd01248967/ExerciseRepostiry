@@ -25,8 +25,10 @@ def consist():
             point += letter[alphabet[total]]
         if point == 100:
             vocabulary.append(spilt)
-    delduplicates = set(vocabulary)  #<----轉成set時候才發生亂數的情況
-    print(delduplicates)
+    delduplicates = set(vocabulary)  #<----轉成set刪去重複單字時候才發生亂數排序的情況
+    undolist = list(delduplicates)  #<----進行排序產生新的list並賦值給新變數
+    sortlist = sorted(undolist)   #<----進行排序
+    print(sortlist)
 
 consist()
 

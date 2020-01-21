@@ -31,13 +31,13 @@ I will continue looking for something interesting project or little idea to prac
 
 The wordCount2point.py goals for this repository are:
 
->  type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth. Alternative, process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
+-  type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth. Alternative, process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
 
 ## Functions
 
-Func 1. type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth.
+- Func 1. type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth.
 
-Func 2. process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
+- Func 2. process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
 
 ## Requirements.txt
 
@@ -63,12 +63,12 @@ Openpyxl >= latest
 
 6. choosen one you wanna to execute: Func1 or Func2 
 
-7-1. Func1.pickup a word from file thath qualified convert point special point on user
-7-2. Func2.import and process 7000's word and show requirements special qualified point's word in file
+7-1. choosen Func1.pickup a word from file thath qualified convert point special point on user
+7-2. choosen Func2.import and process 7000's word and show requirements special qualified point's word in file
 7-3. if norther Func1, Func2 nor numeric will show execption error and pop up prompt, must ensure your input is correct
 
-8-1. Func1. ask you provoid a word and take it to count what point you get
-8-2. Func2. ask you provoid a requirements point and filter correspond word to you
+8-1. choosen 7-1. ask you provoid a word and take it to count what point you get
+8-2. choosen 7-2. ask you provoid a requirements point and filter correspond word to you
 8-3. if norther Func1, Func2 nor numeric will show execption error and pop up prompt, must ensure your input is correct
 ```
 ## Maintainers

@@ -35,11 +35,9 @@ The wordCount2point.py goals for this repository are:
 
 ## Functions
 
-print all of these meet 100 point count in the 7000 vocabular xlsx file
+Func 1. type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth.
 
-must be same with 7000.xlsx formed by 1 column straight 
-
-another function can support type in a word to assist convert word to point and show how many you get
+Func 2. process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
 
 ## Requirements.txt
 
@@ -54,14 +52,24 @@ Openpyxl
 ```sh
 
 1. Create a Python Virtual Environment
-2. git clone this_repo
-3. cd this_repo
-4. pip install re Openpyxl
-5. python wordCount2point.py
-6. Print result：
-{'carpenter', 'Wednesday', 'delivery', 'pursue', 'whiskey', 'inflation', 'thirty', 'fountain', 'excellent', 'discipline', 'companion', 'socialism', 'elsewhere', 'eventual', 'hospital', 'corridor', 'personal', 'intellect', 'repress', 'clockwise', 'stress', ....etc}
-It cost 1.433895 sec
 
+2. git clone https://github.com/asd01248967/WordCount2Point_project.git
+
+3. cd WordCount2Point_project
+
+4. pip install Requirements.txt
+
+5. python wordCount2point.py
+
+6. choosen one you wanna to execute: Func1 or Func2 
+
+7-1. Func1.pickup a word from file thath qualified convert point special point on user
+7-2. Func2.import and process 7000's word and show requirements special qualified point's word in file
+7-3. if norther Func1, Func2 nor numeric will show execption error and pop up prompt, must ensure your input is correct
+
+8-1. Func1. ask you provoid a word and take it to count what point you get
+8-2. Func2. ask you provoid a requirements point and filter correspond word to you
+8-3. if norther Func1, Func2 nor numeric will show execption error and pop up prompt, must ensure your input is correct
 ```
 ## Maintainers
 

@@ -7,9 +7,11 @@ Topic：This WordCount2Point_project is used for increase personal python coding
 
 This repository contains:
 
-1. [wordCount2point.py.py](wordCount2point.py) - For this exercise practice compute how many vocabularies same points as Attitude like that, A is Point 1, B is point2, c is point 3, So on and so forth
+1. [wordCount2point.py.py](wordCount2point.py) - For this exercise practice. Users can choose :
+ type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth. Alternative, process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
+
 2. [7000.xlsx](7000.xlsx) - 7000 vocabulary, From the document, obtain vocabulary and then design point formula to execute application loop until done
-3. [README.md](README.md) - Explain how this repositry's file used for and how to usage
+3. [README.md](README.md) - Explain how this repository's file propose used for and how to usage
 
 ## Table of Contents
 
@@ -21,7 +23,7 @@ This repository contains:
 
 ## Background
 
-Attitude Is Everything, keep goin, keep moving, fall forward
+> Attitude Is Everything, keep goin, keep moving, fall forward
 
 This wordCount2point is used for increase personal coding skill that reach career destination
 
@@ -29,7 +31,7 @@ I will continue looking for something interesting project or little idea to prac
 
 The wordCount2point.py goals for this repository are:
 
-> For this wordCount2point practice compute how many vocabularies exactly same as Attitude with one hundred points as well ,Suppose A is Point 1, B is point2, c is point 3, So on and so forth
+>  type in a word that will convert your word to a Corresponding point. A is Point 1, B is point2, c is point 3, So on and so forth. Alternative, process will import 7000.xlsx file and its requirement a user offers a point, according to the offered point, process grab correspond word to display
 
 ## Functions
 

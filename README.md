@@ -1,9 +1,9 @@
 # Exercise_Project
-### Author: Jasper
+### Author: Jasper_2020/01/21
 
 [![standard-readme compliant](https://img.shields.io/badge/Exercise-01-green)](https://github.com/asd01248967/workspace)
 
-Topic：This WordCount2Point_project is used for increase personal coding skill that reach career destination
+Topic：This WordCount2Point_project is used for increase personal python coding skill that reach career destination
 
 This repository contains:
 

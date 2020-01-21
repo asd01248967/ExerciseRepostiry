@@ -25,7 +25,7 @@ def consist( requirements ):
         point = 0
         for total in range(0, len(spilt)):
             point += letter[alphabet[total]]
-        if point == requirements:
+        if point == int(requirements):
             vocabulary.append(spilt)
     delduplicates = set(vocabulary)  #<----轉成set刪去重複單字時候才發生亂數排序的情況
     undolist = list(delduplicates)  #<----進行排序產生新的list並賦值給新變數
@@ -45,7 +45,7 @@ def printme( name ):
 def main():
     print("choosen one you wanna to execute.")
     print("1.pickup a word from file thath qualified convert point special point on user ")
-    print("2.import and process 7000's word and show requirements special qualified piunt's word in file")
+    print("2.import and process 7000's word and show requirements special qualified point's word in file")
     choosen = input("which number is you want to exect : ")
     try:
         if int(choosen) == 1:

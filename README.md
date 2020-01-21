@@ -43,8 +43,8 @@ Func 2. process will import 7000.xlsx file and its requirement a user offers a p
 
 Used module for wordCount2point:
 ```sh
-Regular expression
-Openpyxl
+Regular expression >= latest
+Openpyxl >= latest
 ```
 
 ## QuickStart

@@ -27,7 +27,7 @@ def consist( requirements ):
         if point == int(requirements):
             vocabulary.append(spilt)
     delduplicates = set(vocabulary)  #<----轉成set刪去重複單字時候才發生亂數排序的情況
-    undolist = list(delduplicates)  #<----進行排序產生新的list並賦值給新變數
+    undolist = list(delduplicates)  #<----產生新的list並賦值給新變數
     sortlist = sorted(undolist)   #<----進行排序
     print(sortlist)
 

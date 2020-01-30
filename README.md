@@ -63,8 +63,8 @@ Openpyxl >= latest
 
 6. choosen one you wanna to execute: Func1 or Func2 
 
-7-1. choosen Func1.pickup a word from file thath qualified convert point special point on user
-7-2. choosen Func2.import and process 7000's word and show requirements special qualified point's word in file
+7-1. choosen Func1.Enter a word and check the word to convert the qualified word into a point and display it
+7-2. choosen Func2.Import 7000 words, input the specified point, convert 7000 words into conforming points, check whether they meet the specified point, and display it
 7-3. if norther Func1, Func2 nor numeric will show execption error and pop up prompt, must ensure your input is correct
 
 8-1. choosen 7-1. ask you provoid a word and take it to count what point you get

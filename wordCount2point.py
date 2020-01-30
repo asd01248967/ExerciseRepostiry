@@ -43,6 +43,7 @@ def printme( name ):
 
 def main():
     while 1:
+        print("*********************************")
         print("choosen one you wanna to execute.")
         print("1.Pickup a word from file thath qualified convert point special point on user ")
         print("2.Import and process 7000's word and show requirements special qualified point's word in file")

@@ -43,8 +43,9 @@ def printme( name ):
 
 def main():
     print("choosen one you wanna to execute.")
-    print("1.pickup a word from file thath qualified convert point special point on user ")
-    print("2.import and process 7000's word and show requirements special qualified point's word in file")
+    print("1.Pickup a word from file thath qualified convert point special point on user ")
+    print("2.Import and process 7000's word and show requirements special qualified point's word in file")
+    print("3.Exit ")
     choosen = input("which number is you want to exect : ")
     try:
         if int(choosen) == 1:
